@@ -3,10 +3,19 @@ build/
 cmake-build-*/
 out/
 
-# IDE files
-.idea/
-.vs/
+# IDE files — VS Code
 .vscode/
+
+# IDE files — Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.sln.docstates
+
+# IDE files — CLion / JetBrains
+.idea/
+
+# Editor temp files
 *.swp
 *.swo
 *~
@@ -20,3 +29,7 @@ Thumbs.db
 *.obj
 *.exe
 *.out
+
+# Claude temp files
+.claude/
+tmpclaude*
